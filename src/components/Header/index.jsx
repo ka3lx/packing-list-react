@@ -15,7 +15,7 @@ function Header({ onAdd }) {
       >
         FAR AWAY
       </nav>
-      <header className='h-20 flex justify-center gap-4 bg-orange-500 items-center'>
+      <header className='h-fit w-full flex xs:flex-col lg:flex-row flex-wrap justify-center py-8 gap-4 bg-orange-500 items-center'>
         <h1 className={`text-xl text-slate-800 font-bold ${styles.heading}`}>
           What do you need for your trip?{" "}
         </h1>
