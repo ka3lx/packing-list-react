@@ -1,7 +1,7 @@
 function TodoSection({ todos, onComplete, onDelete }) {
   return (
     <div className='pt-10 flex w-full justify-center'>
-      <div className='w-1/2 flex flex-wrap  justify-start'>
+      <div className='sm:w-3/4  lg:w-1/2 flex flex-wrap  justify-start'>
         {todos.map(({ id, title, quantity, isComplete = false }) => (
           <div
             key={id}
